@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 8 - CSS Grid</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f7fafc;
+        }
+
+        h1 {
+            color: #2d3748;
+        }
+
+        /* CSS Grid Container */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            background-color: #e2e8f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        /* CSS Grid Items */
+        .grid-item {
+            background-color: #4c51bf;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Module 8: CSS Grid</h1>
+    <p>CSS Grid is a powerful two-dimensional layout system designed for handling both columns and rows simultaneously.</p>
+
+    <!-- Grid Container -->
+    <div class="grid-container">
+        <div class="grid-item">Grid Box 1</div>
+        <div class="grid-item">Grid Box 2</div>
+        <div class="grid-item">Grid Box 3</div>
+        <div class="grid-item">Grid Box 4</div>
+        <div class="grid-item">Grid Box 5</div>
+        <div class="grid-item">Grid Box 6</div>
+    </div>
+
+    <p style="margin-top: 30px;"><a href="../module-7/index.html">&larr; Back to Module 7</a></p>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 6 - Box Model and Positioning</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        /* Box Model Demonstration */
+        .box-model-demo {
+            background-color: #e2e8f0;
+            width: 300px;
+            padding: 20px;    /* Space inside the border */
+            border: 5px solid #3182ce; /* Border around the element */
+            margin: 20px 0;   /* Space outside the border */
+            border-radius: 6px;
+        }
+
+        /* Positioning Demonstration */
+        .position-container {
+            position: relative;
+            height: 120px;
+            background-color: #edf2f7;
+            border: 1px dashed #cbd5e0;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .box-relative {
+            position: relative;
+            top: 10px;
+            left: 15px;
+            background-color: #48bb78;
+            color: white;
+            padding: 10px;
+            width: 150px;
+            text-align: center;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Module 6: Box Model and Positioning</h1>
+    <p>Every element in CSS is considered a box consisting of <strong>margins, borders, padding, and the actual content</strong>.</p>
+
+    <!-- Box Model Example -->
+    <div class="box-model-demo">
+        <h3>The Box Model</h3>
+        <p>This box has padding, a border, and a margin controlling its layout space.</p>
+    </div>
+
+    <h2>CSS Positioning</h2>
+    <p>CSS positioning allows you to control the exact location of elements (using static, relative, absolute, or fixed values).</p>
+
+    <!-- Positioning Example -->
+    <div class="position-container">
+        <p>Parent container (relative)</p>
+        <div class="box-relative">Relative Box</div>
+    </div>
+
+    <p style="margin-top: 30px;"><a href="../module-5/index.html">&larr; Back to Module 5</a></p>
+
+</body>
+</html>

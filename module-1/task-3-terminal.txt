@@ -1,0 +1,5 @@
+Terminal Navigation Practice Sheet:
+1. pwd - Prints the current working directory (shows where you are).
+2. ls - Lists all files and folders in the current directory.
+3. cd <folder-name> - Changes directory (goes into a folder).
+4. cd .. - Moves back up one folder level.

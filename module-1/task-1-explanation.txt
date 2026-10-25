@@ -1,0 +1,2 @@
+Explanation:
+When you type a URL into your browser and press Enter, the browser first looks up the website's unique IP address using the Domain Name System (DNS), acting much like looking up a name in a phone book. Once it finds the correct server, your browser sends an HTTP request to that server asking for the website's files. The server processes this request and sends back the raw code (HTML, CSS, and JavaScript), which your browser then reads, renders, and displays visually on your screen as the webpage you see.
